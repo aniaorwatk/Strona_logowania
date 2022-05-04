@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: rgb(212, 206, 206);
+}
+
+.wrapper {
+	display: flex;
+	min-height: 100vh;
+}
+
+.wrapper-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #efefef;
+	flex-grow: 3;
+}
+
+h1 {
+	padding: 15px;
+	font-size: 30px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+input {
+	width: 220px;
+	height: 30px;
+	padding: 0 10px;
+	margin: 5px;
+	border-radius: 25px;
+	border: none;
+}
+
+input[type='submit'] {
+	width: 100px;
+	height: 25px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	line-height: 25px;
+	color: white;
+	background-color: rgb(10, 70, 35);
+}
+
+.wrapper-right {
+	flex-grow: 2;
+	background-image: url("./goryTyrol.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.registration {
+	margin: 20px;
+}
